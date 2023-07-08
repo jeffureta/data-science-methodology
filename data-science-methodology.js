@@ -13,6 +13,6 @@ const IBMdataScienceMethodology = {
   
   // Outputting the steps and their descriptions
   for (const step in IBMdataScienceMethodology) {
-    console.log(`${step}: ${steps[step]}`);
+    console.log(`${step}: ${IBMdataScienceMethodology[step]}`);
   }
   
